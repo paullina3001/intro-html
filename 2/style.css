@@ -2,7 +2,7 @@ body {
     background-color: sandybrown;
 }
 h1 {
-   font-family: arial; 
+   font-family: arial, serif; 
 }
 
 .button1, .button2, .button3, .button4 {
