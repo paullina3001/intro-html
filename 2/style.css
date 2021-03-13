@@ -110,3 +110,15 @@ width: 100px;
 .link:hover {
     color: pink;
 }
+
+.link:visited {
+    color:red;
+}
+img#puszka:hover{
+    opacity : 0.50;
+    filter : alpha(opacity=50);
+    }
+
+h1:hover {
+    color: blue;
+}
