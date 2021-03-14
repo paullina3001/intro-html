@@ -40,3 +40,48 @@ img#puszka:hover{
 h1:hover {
     color: blue;
 }
+section {
+    overflow: hidden;
+}
+
+
+.box {
+    margin: 50px 0 50px 0;
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+}
+.box2 {
+    margin: 0 0 50px 0;
+    display: flex;
+    width: 450px;
+    height: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pole1, .pole2, .pole3, .pole4 {
+    width: 200px; 
+    height: 30px; 
+    margin:0px; 
+    background: greenyellow; 
+    border: 5px solid blueviolet; 
+    text-align: center;
+   }
+.pole3, .pole4 {
+    margin-top: -5px;
+}
+.pole2, .pole4 {
+    margin-left: -5px;
+}
+
+.pole11, .pole21, .pole31, .pole41 {
+    width: 200px; 
+    height: 30px; 
+    margin:0px; 
+    background: greenyellow; 
+    border: 5px solid blueviolet; 
+    text-align: center;
+   }
+.pole31, .pole41 {
+    margin-top: 10px;
+}
